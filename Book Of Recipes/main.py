@@ -9,7 +9,7 @@ class DisplayingCookBook:
     def __init__(self):
         self.__managing_elements = ManagingElements()
         self.modelCookBook = ModelCookBook()
-        # self.__fgfg = fefg()
+       
 
     def work(self):
         self.__managing_elements.window.mainloop()
